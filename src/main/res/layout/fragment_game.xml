@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <master.TimeRecorderTextView
+        android:id="@+id/tv_timerecord"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:text="hello"
+        android:gravity="center"
+        android:textSize="20sp"/>
+
+    <GridView
+        android:id="@+id/gv"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:numColumns="9"
+        android:layoutAnimation="@anim/layout_wave_scale"></GridView>
+
+
+</LinearLayout>

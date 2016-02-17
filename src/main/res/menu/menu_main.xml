@@ -1,0 +1,20 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.asus.shudugame.MainActivity">
+    <item
+        android:id="@+id/action_start"
+        android:orderInCategory="100"
+        android:title="重新开始游戏"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_intro"
+        android:orderInCategory="100"
+        android:title="数独介绍"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_about"
+        android:orderInCategory="100"
+        android:title="关于我们"
+        app:showAsAction="never" />
+</menu>
